@@ -1,4 +1,4 @@
-# Digits-Classification-
+# Digits-Images-Classification
 
 
 
