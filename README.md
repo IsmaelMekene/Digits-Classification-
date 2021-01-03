@@ -103,7 +103,7 @@ _see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN
  - Predicttions
  
  
- |Id|Category| 
+@|Id|Category| 
 ---|---|---|
 0|0|6| 
 1|1|6| 
