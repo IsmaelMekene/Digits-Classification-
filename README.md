@@ -153,12 +153,11 @@ _________________________________________________________________
 
 In order to tyrain the model, the hyperparameters have respectively been set to:
 
+hyperparameters | value |
+--- | --- |
 batch_size | 10 |
---- | --- |
 epochs | 30 |
---- | --- |
 learningrate | 0.001 |
---- | --- |
 decay_rate | 0.001/30 |
 
 
