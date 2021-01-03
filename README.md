@@ -104,6 +104,7 @@ The architecture of our model is constisted of three fully connected hidden laye
 
 _see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)_
 
+` 
 Model: "sequential_4"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -148,6 +149,7 @@ Total params: 142,670
 Trainable params: 142,110
 Non-trainable params: 560
 _________________________________________________________________
+`
 
 ## Training the model
 
