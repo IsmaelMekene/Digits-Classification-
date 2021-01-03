@@ -121,3 +121,34 @@ Id|Category|
 13|0|
 14|4|
 
+_see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)_
+
+
+## Difficulties
+
+Building the most achivied model has not been possible due to:
+
+- The meticulousness, the tediousness and the iterativeness of the process require relevant and powerful computation. Therefore, working from a local evironment with low GPU make it worser.
+
+- The Convolutional autoencoder was not a success as aimed. However, it did not impact the predictions.
+
+- Jupyter Notebook has crushed several time maybe due to Keras imports, Google Colab seemed to be very slow, Visual Studio Code was the perfect match.
+
+## Areas for Improvement
+
+The accuracy reached can be improved as it is far from the 99%. Hence, for future model improvement we should probably:
+
+- Make the convolutional autoencoder reach the aimed thresehold
+- Find a way to use the Kfold cross validation
+- Tune further hyperparameters
+- Try other optimzers
+
+## Acknowledgements and References
+
+- https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-from-scratch-for-mnist-handwritten-digit-classification/
+
+- https://github.com/shubham99bisht/Handwritten-digit-recognition-MNIST
+
+- https://www.python-course.eu/neural_network_mnist.php
+
+- https://github.com/ayooshkathuria/MNIST-handwritten-digit-recognition
