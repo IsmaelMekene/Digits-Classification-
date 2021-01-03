@@ -94,7 +94,7 @@ decay_rate | 0.001/30 |
 
 _see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)_
 
-### Model Evaluation
+- Model Evaluation
 
  _input_: `$ scores = model.evaluate(xval, yval, batch_size = batch_size, verbose=1)`
  
