@@ -97,5 +97,6 @@ _see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN
 ### Model Evaluation
 
  _input_: `$ scores = model.evaluate(xval, yval, batch_size = batch_size, verbose=1)`
+ 
  _output_: 240/240 [==============================] - 3s 14ms/step - loss: 0.1089 - accuracy: 0.9688
 
