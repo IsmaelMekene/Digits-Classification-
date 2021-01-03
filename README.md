@@ -99,4 +99,25 @@ _see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN
  _input_: `$ scores = model.evaluate(xval, yval, batch_size = batch_size, verbose=1)`
  
  _output_: 240/240 [==============================] - 3s 14ms/step - loss: 0.1089 - accuracy: 0.9688
+ 
+ - Predicttions
+ 
+ 
+ |Id|Category| 
+---|---|---|
+0|0|6| 
+1|1|6| 
+2|2|8|
+3|3|4|
+4|4|3|
+5|5|9|
+6|6|6|
+7|7|0|
+8|8|2|
+9|9|4|
+10|10|5|
+11|11|8|
+12|12|6|
+13|13|0|
+14|14|4|
 
