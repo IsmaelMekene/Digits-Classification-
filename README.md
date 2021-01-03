@@ -49,6 +49,7 @@ The respective shapes of the loaded train and test sets are as follow: (12000,78
 - Reshaping the xtrain set into the raw pixel form of (28x28), this allows to observ the noise.
 
 - Building an autoencoder in order to clear the noise up.
+
 _see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)_
 
 <p align="center">
