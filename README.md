@@ -1,4 +1,4 @@
-# Digits-Images-Classification
+# :open_file_folder: Digits-Images-Classification
 
 
 This project is a Kaggle project: https://www.kaggle.com/c/dsti-s20-ann/leaderboard .
