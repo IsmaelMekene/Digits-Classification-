@@ -31,3 +31,26 @@ Make sure that you have install these main modules:
 - Scikit-learn's train-test_split in order to divide the train set into a train and validation set
 - Keras in order to build the model and make the preprocessing
 - Pandas in order to read in the csv file and generate the final sample
+
+_see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)_
+
+## Data loading
+
+Downloaded from a private Kaggle challenge created by Dr Nadiya Shvai for S20. The data is made of 12000 observations in training set and 50000 observations in testing set, respectively with 785 and 784 rows. Datasets have firstly been downloaded from Kaggle and the loaded into the PYNB as follow: [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)
+
+## Data Preprocessing
+
+The respective shapes of the loaded train and test sets are as follow: (12000,785) and (50000,784) We have done the preprocessig part in multiple parts:
+
+- Dividing the train set into train and validation set (with respect to the 0.8:0.2 ratio)
+
+- Dividing the new train set into xtrain (normalised) and ytrain (the last 785th column, consisted of the class of digits); applied the same steps to the validation set. We then have four created sets from train and validation sets added to the known test sets that have been converted into arrays.
+
+- Reshaping the xtrain set into the raw pixel form of (28x28), this allows to observ the noise.
+
+- Building an autoencoder in order to clear the noise up.
+_see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)_
+
+<p align="center">
+  <img src="https://github.com/IsmaelMekene/Metaheuristics--Stochastic-Optimization/blob/main/images/digitviz.svg"/>
+</p>
