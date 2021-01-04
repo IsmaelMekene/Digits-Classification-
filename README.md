@@ -26,11 +26,11 @@ The codes have been scripted into Python and due to some technical issues, we we
 
 Make sure that you have install these main modules:
 
-- Numpy in order to transform, manipulate and process the data
-- Matplotlib in order to plot
-- Scikit-learn's train-test_split in order to divide the train set into a train and validation set
-- Keras in order to build the model and make the preprocessing
-- Pandas in order to read in the csv file and generate the final sample
+- [x] Numpy: in order to transform, manipulate and process the data
+- [x] Matplotlib: in order to plot
+- [x] Scikit-learn: train-test_split in order to divide the train set into a train and validation set
+- [x] Keras: in order to build the model and make the preprocessing
+- [x] Pandas: in order to read in the csv file and generate the final sample
 
 _see [code](https://github.com/IsmaelMekene/Digits-Classification-/blob/main/ANN_Digits_Classification.ipynb)_
 
